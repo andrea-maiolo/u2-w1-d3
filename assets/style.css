@@ -47,18 +47,21 @@ header img {
   width: 4rem;
 }
 
-header ul {
-  padding: 0;
+header nav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1rem;
 }
 
-header li {
+header nav a {
   background-color: #ffdf7f;
-  list-style: none;
   border-radius: 3rem;
   padding: 1rem 2rem;
+  text-decoration: none;
+  color: #752305;
+  flex-grow: 1;
 }
 
 main {
