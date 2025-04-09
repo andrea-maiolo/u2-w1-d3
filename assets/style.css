@@ -130,6 +130,7 @@ article {
   background-color: #fef7e2;
   padding: 1.5rem;
   align-items: center;
+  border-radius: 3rem;
 }
 
 article img {
@@ -139,4 +140,14 @@ article img {
 
 article h3 {
   font-weight: 800;
+}
+
+@media screen and (min-width: 576px) {
+  .card:last-of-type {
+    display: none;
+  }
+
+  main h1 {
+    text-align: left;
+  }
 }
