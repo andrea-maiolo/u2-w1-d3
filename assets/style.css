@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  padding: 1rem;
+  color: #752305;
+  font-family: "Poppins";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef7e2;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+header p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffdf7f;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  width: 100%;
+  font-size: 2rem;
+}
+
+header img {
+  width: 4rem;
+}
+
+header ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header li {
+  background-color: #ffdf7f;
+  list-style: none;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+  text-align: center;
+}
+
+.card {
+  margin-top: 2rem;
+  border-radius: 15%;
+  overflow: hidden;
+  background-color: #fef7e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.lowerHalf {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description p {
+  font-size: 0.7rem;
+}
+
+.card button {
+  background-color: #ffdf7f;
+  border: none;
+  border-radius: 2rem;
+  color: #752305;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  width: 50%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+article {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fef7e2;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+article img {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+article h3 {
+  font-weight: 800;
+}
